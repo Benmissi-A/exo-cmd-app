@@ -8,8 +8,8 @@ const showStars = (nbStars,symbol, reverse ) => {
         console.log(symbol.repeat(Number(nbStars)-i))
         break
       default :
-      console.log('error '.repeat(Number(nbStars)-i))
-      console.log('error '.repeat(i+1))
+        console.log('error '.repeat(Number(nbStars)-i))
+        console.log('error '.repeat(i+1))
       break
     }
   }
